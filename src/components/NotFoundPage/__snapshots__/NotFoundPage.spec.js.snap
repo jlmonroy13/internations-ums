@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<NotFoundPage /> should render the not found page component 1`] = `
+<div>
+  <h4>
+    404 Page Not Found
+  </h4>
+  <a
+    onClick={[Function]}
+    style={Object {}}
+  >
+     Go back to homepage 
+  </a>
+</div>
+`;

@@ -1,0 +1,39 @@
+.form {
+  &-header {
+    display: inline-block;
+    vertical-align: middle;
+  }
+  &__field {
+    margin-bottom: $half-spacing-unit;
+  }
+  &__input {
+    width: 100%;
+    padding: $half-spacing-unit/2 $half-spacing-unit;
+    border-radius: 4px;
+    border: 1px solid $gray-light;
+  }
+  &__textarea {
+    @extend .form__input;
+    height: 213px;
+    &--small {
+      height: 130px;
+    }
+  }
+  &__label {
+    &-file {
+      @include rem(14);
+      font-weight: 700;
+    }
+  }
+  &__select {
+    width: 100%;
+    background-color: transparent;
+    border: none;
+    &-container {
+      background-color: $white;
+      border: 1px solid $gray-light;
+      padding: $half-spacing-unit/2 0;
+      border-radius: 4px;
+    }
+  }
+}

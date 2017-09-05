@@ -1,0 +1,27 @@
+#nprogress .bar {
+  background-color: $color-brand !important;
+  height: 4px !important;
+}
+
+#nprogress .spinner {
+  border-top-color: $color-brand !important;
+  border-left-color: $color-brand !important;
+  top: 50% !important;
+  right: 50% !important;
+  transform: translate(50%, -50%) !important;
+  background-color: rgba(0, 0, 0, 0.1) !important;
+  border-radius: 4px !important;
+  padding: 15px !important;
+}
+
+#nprogress .spinner-icon {
+  border: solid 5px transparent !important;
+  border-top-color: $color-brand !important;
+  border-left-color: $color-brand !important;
+  width: 35px !important;
+  height: 35px !important;
+}
+
+#nprogress .peg {
+  box-shadow: 0 0 10px $color-brand, 0 0 5px $color-brand !important;
+}

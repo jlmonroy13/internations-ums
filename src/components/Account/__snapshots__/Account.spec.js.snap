@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Account /> should render the account component 1`] = `
+<div
+  className="account"
+>
+  <div
+    className="grid grid--center"
+  >
+    <span />
+  </div>
+</div>
+`;

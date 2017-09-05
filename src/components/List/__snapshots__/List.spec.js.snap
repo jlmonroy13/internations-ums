@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<List /> should render the list component 1`] = `
+<div
+  className="details__warning"
+>
+  <p
+    className="text--larger flush--bottom"
+  >
+    You don't have any  yet.
+  </p>
+  <p
+    className="text--large"
+  >
+    Please add one.
+  </p>
+  <span
+    className="details__warning-btn icon icon--plus"
+    onClick={[Function]}
+  />
+</div>
+`;

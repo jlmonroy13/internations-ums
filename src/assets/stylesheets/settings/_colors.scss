@@ -1,0 +1,30 @@
+$gray-base: #000 !default;
+$gray-darker: #393939;
+$gray-dark: lighten($gray-base, 20%) !default; // #333
+$gray: lighten($gray-base, 33.5%) !default; // #555
+$gray-light: #e1e1e1;
+$gray-lighter: #f0f0f0;
+
+$white: #ffffff;
+$black: #000000;
+$watermelon: #ea5c54;
+$purple: #bb6dec;
+$pink: #dc6180;
+$facebook-blue: #3b5998;
+$twitter-blue: #1dcaff;
+
+$brand-primary: $pink; // #337ab7
+$brand-success: #5cb85c !default;
+$brand-info: #5bc0de !default;
+$brand-warning: #f0ad4e !default;
+$brand-danger: #d9534f !default;
+$brand-ui: #dfdfdf;
+$brand-default: #dfdfdf;
+
+$color-brand: $pink;
+
+$body-bg: $white;
+$hr-border: $gray-lighter;
+$link-color: $brand-info;
+$link-hover-color: darken($link-color, 15%);
+$color-text-body: $black;

@@ -1,0 +1,68 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<FormGroup /> should render the form group component 1`] = `
+<form
+  className="form"
+  onSubmit={[Function]}
+>
+  <div
+    className="form__field"
+  >
+    <label
+      className="form__label-file"
+      htmlFor="photo"
+    >
+      Load photo
+    </label>
+    <input
+      className="form__input"
+      id="photo"
+      onChange={[Function]}
+      required={true}
+      type="file"
+    />
+  </div>
+  <div
+    className="form__field"
+  >
+    <label
+      className="sr-only"
+      htmlFor="name"
+    />
+    <input
+      className="form__input"
+      id="name"
+      name="name"
+      onChange={[Function]}
+      placeholder="Group Name"
+      required={true}
+      type="text"
+    />
+  </div>
+  <div
+    className="form__field"
+  >
+    <label
+      className="sr-only"
+      htmlFor="description"
+    >
+      Description
+    </label>
+    <textarea
+      className="form__textarea"
+      id="description"
+      name="description"
+      onChange={[Function]}
+      placeholder="This group is for ..."
+      required={true}
+      type="text"
+    />
+  </div>
+  <button
+    className="button button--primary push--top"
+    type="submit"
+  >
+    Add
+  </button>
+</form>
+`;

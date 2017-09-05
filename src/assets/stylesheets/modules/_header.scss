@@ -1,0 +1,24 @@
+.header {
+  @include gradient-directional(#35394A 0%, #1F222E 100%, 45deg);
+  padding: $base-spacing-unit;
+  &__title {
+    margin: 0;
+    color: $white;
+    display: inline-block;
+    vertical-align: middle;
+    @include rem(24);
+    &--pink {
+      color: $pink;
+    }
+  }
+  &__btn {
+    display: none;
+    @media screen and (max-width: 720px) {
+      float: right;
+      color: $white;
+      @include rem(26);
+      cursor: pointer;
+      display: block;
+    }
+  }
+}

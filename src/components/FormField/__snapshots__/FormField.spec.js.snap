@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<FormField /> should render the form field component 1`] = `
+<div
+  className="form__field"
+>
+  <label
+    className="sr-only"
+    htmlFor=""
+  />
+  <input
+    className="form__input"
+    id=""
+  />
+</div>
+`;

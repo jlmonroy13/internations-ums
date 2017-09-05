@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Dashboard /> should render the dashboard component 1`] = `
+<div
+  className="dashboard"
+>
+  <div
+    className="dashboard__container"
+  >
+    <header
+      className="header"
+    >
+      <h1
+        className="header__title"
+      >
+        <span
+          className="icon icon--logo"
+        />
+         InterNations
+         
+        <span
+          className="header__title--pink"
+        >
+          UMS
+        </span>
+      </h1>
+      <span
+        className="icon icon--menu header__btn"
+        onClick={[Function]}
+      />
+    </header>
+    <span />
+  </div>
+</div>
+`;

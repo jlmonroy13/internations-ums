@@ -1,0 +1,113 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Signup /> should render the sign up component 1`] = `
+<div
+  className="grid__item medium--one-half"
+>
+  <section
+    className="account-box"
+  >
+    <h1
+      className="account-box__title"
+    >
+      Sign up
+    </h1>
+    <form
+      onSubmit={[Function]}
+    >
+      <div
+        className="push-triple--bottom relative"
+      >
+        <div
+          className="account__form-group"
+        >
+          <label
+            className="account__label account__label--with-icon"
+            htmlFor="email"
+          >
+            <span
+              className="icon icon--user"
+            />
+          </label>
+          <input
+            className="account__form-control"
+            id="email"
+            name="email"
+            onChange={[Function]}
+            placeholder="Email"
+            required={true}
+            type="email"
+            value=""
+          />
+        </div>
+        <div
+          className="account__form-group"
+        >
+          <label
+            className="account__label account__label--with-icon"
+            htmlFor="password"
+          >
+            <span
+              className="icon icon--lock"
+            />
+          </label>
+          <input
+            className="account__form-control"
+            id="password"
+            name="password"
+            onChange={[Function]}
+            placeholder="Password"
+            required={true}
+            type="password"
+            value=""
+          />
+        </div>
+        <div
+          className="account__form-group"
+        >
+          <label
+            className="account__label account__label--with-icon"
+            htmlFor="confirmPassword"
+          >
+            <span
+              className="icon icon--lock"
+            />
+          </label>
+          <input
+            className="account__form-control"
+            id="confirmPassword"
+            name="confirmPassword"
+            onChange={[Function]}
+            placeholder="Confirm password"
+            required={true}
+            type="password"
+            value=""
+          />
+        </div>
+        <div
+          className="account-box__error-message"
+        >
+          
+        </div>
+      </div>
+      <button
+        className="button button--submit"
+        type="submit"
+      >
+        Create Account
+      </button>
+    </form>
+  </section>
+  <div
+    className="account__message"
+  >
+    Already have an account? 
+    <a
+      onClick={[Function]}
+      style={Object {}}
+    >
+      Log in
+    </a>
+  </div>
+</div>
+`;

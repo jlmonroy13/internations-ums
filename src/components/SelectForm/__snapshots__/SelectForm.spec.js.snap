@@ -1,0 +1,38 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<SelectForm /> should render the select form component 1`] = `
+<form
+  className="list__select-form"
+  onSubmit={[Function]}
+>
+  <label
+    className="form__label"
+    htmlFor="items"
+  />
+  <div
+    className="list__select-container"
+  >
+    <select
+      className="list__select"
+      id="itemId"
+      name="itemId"
+      onChange={[Function]}
+    >
+      <option
+        value=""
+      >
+        Add user
+      </option>
+    </select>
+  </div>
+  <button
+    className="list__select-button"
+    disabled={true}
+    type="submit"
+  >
+    <span
+      className="list__button icon icon--add-user"
+    />
+  </button>
+</form>
+`;

@@ -1,0 +1,49 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<SidebarNav /> should render the sidebar nav component 1`] = `
+<nav
+  className="sidebar-nav sidebar-nav__mobile"
+>
+  <a
+    className="sidebar-nav__btn "
+    onClick={[Function]}
+    style={Object {}}
+  >
+    <span
+      className="sidebar-nav__btn-icon icon icon--users"
+    />
+    <span
+      className="sidebar-nav__btn-text"
+    >
+      Users
+    </span>
+  </a>
+  <a
+    className="sidebar-nav__btn "
+    onClick={[Function]}
+    style={Object {}}
+  >
+    <span
+      className="sidebar-nav__btn-icon icon icon--group"
+    />
+    <span
+      className="sidebar-nav__btn-text"
+    >
+      Groups
+    </span>
+  </a>
+  <div
+    className="sidebar-nav__btn"
+    onClick={[Function]}
+  >
+    <span
+      className="sidebar-nav__btn-icon icon icon--log-out"
+    />
+    <span
+      className="sidebar-nav__btn-text"
+    >
+      Log out
+    </span>
+  </div>
+</nav>
+`;

@@ -1,0 +1,81 @@
+@font-face {
+  font-family: $font-family-icons;
+  src: url("../fonts/icon-family.eot?fkm0u3");
+  src: url("../fonts/icon-family.eot?fkm0u3#iefix") format("embedded-opentype"),
+    url("../fonts/icon-family.woff2?fkm0u3") format("woff2"),
+    url("../fonts/icon-family.ttf?fkm0u3") format("truetype"),
+    url("../fonts/icon-family.woff?fkm0u3") format("woff"),
+    url("../fonts/icon-family.svg?fkm0u3#icon-family") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.icon {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: $font-family-icons !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon--menu:before {
+  content: "\e911";
+}
+.icon--plus:before {
+  content: "\e910";
+}
+.icon--add-user:before {
+  content: "\e90d";
+}
+.icon--add-group:before {
+  content: "\e90e";
+}
+.icon--cross:before {
+  content: "\e902";
+}
+.icon--exit:before {
+  content: "\e90f";
+}
+.icon--mail:before {
+  content: "\e90c";
+}
+.icon--logo:before {
+  content: "\e90a";
+}
+.icon--lock:before {
+  content: "\e901";
+}
+.icon--user:before {
+  content: "\e900";
+}
+.icon--log-out:before {
+  content: "\e90b";
+}
+.icon--edit:before {
+  content: "\e903";
+}
+.icon--delete:before {
+  content: "\e904";
+}
+.icon--group:before {
+  content: "\e905";
+}
+.icon--users:before {
+  content: "\e906";
+}
+.icon--github:before {
+  content: "\e907";
+}
+.icon--twitter:before {
+  content: "\e908";
+}
+.icon--facebook:before {
+  content: "\e909";
+}

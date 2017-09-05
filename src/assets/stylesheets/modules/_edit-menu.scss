@@ -1,0 +1,12 @@
+.edit-menu {
+  float: right;
+  padding-top: $half-spacing-unit;
+  &__icon {
+    cursor: pointer;
+    font-weight: 700;
+    margin-right: $half-spacing-unit;
+    &:hover {
+      color: $pink;
+    }
+  }
+}

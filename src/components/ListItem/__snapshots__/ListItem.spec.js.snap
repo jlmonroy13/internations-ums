@@ -1,0 +1,32 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ListItem /> should render the list item component 1`] = `
+<li
+  className="list__item"
+>
+  <a
+    className="list__item-link"
+    onClick={[Function]}
+    style={Object {}}
+  />
+  <img
+    alt="Group photo"
+    className="list__item-image"
+    src=""
+  />
+  <div
+    className="list__item-info"
+  >
+    <span
+      className="list__item-text"
+    >
+       
+    </span>
+    <span
+      className="list__item-text list__item-text--small list__item-text--dots"
+    >
+      
+    </span>
+  </div>
+</li>
+`;

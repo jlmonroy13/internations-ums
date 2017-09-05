@@ -1,0 +1,76 @@
+.details {
+  background-color: $gray-light;
+  width: 100%;
+  padding: $base-spacing-unit;
+  &__photo {
+    border-radius: 50%;
+    height: 130px;
+    width: 130px;
+    display: block;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: $half-spacing-unit auto;
+  }
+  &__info-container {
+    background-color: $gray-lighter;
+    padding: $half-spacing-unit;
+    border-radius: 2px;
+    @media screen and (max-width: 720px) {
+      margin-bottom: $base-spacing-unit*2;
+    }
+  }
+  &__info {
+    text-align: left;
+    &-title {
+      font-weight: 700;
+      @include rem(34);
+      margin-bottom: $half-spacing-unit;
+      color: darken($pink, 15%);
+      text-align: center;
+    }
+    &-text {
+      font-weight: 200;
+      margin-bottom: $half-spacing-unit;
+      padding-left: $base-spacing-unit;
+    }
+    &-label {
+      font-weight: 700;
+      margin: 0;
+      @include rem(18);
+      padding-left: $base-spacing-unit;
+    }
+    &-icon {
+      @include rem(20);
+      margin-right: $half-spacing-unit/2;
+      vertical-align: middle;
+      &--facebook {
+        color: $facebook-blue;
+      }
+      &--twitter {
+        color: $twitter-blue;
+      }
+      &--mail {
+        color: $gray-darker;
+      }
+    }
+  }
+  &__warning {
+    position: absolute;
+    width: 100%;  
+    top: 50%;
+    left: 50%;
+    text-align: center;
+    transform: translate(-50%, -50%);
+    @media screen and (max-width: 720px) {
+      position: fixed;
+    }
+    &-btn {
+      display: none;
+      @media screen and (max-width: 950px) {
+        color: $pink;
+        @include rem(32);
+        display: block;
+      }
+    }
+  }
+}

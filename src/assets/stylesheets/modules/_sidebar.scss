@@ -1,0 +1,74 @@
+.sidebar {
+  &-nav {
+    @include gradient-directional(#35394A 0%, #1F222E 100%, 45deg);
+    padding-top: $half-spacing-unit;
+    width: 9%;
+    min-width: 105px;
+    &__btn {
+      padding: $base-spacing-unit;
+      text-align: center;
+      cursor: pointer;
+      display: block;
+      @include transition('0.3s');
+      color: rgba($white, 0.2);
+      &-text {
+        @include rem(13);
+      }
+      &-icon {
+        display: block;
+        @include rem(32);
+      }
+      &:hover {
+        color: $pink;
+      }
+      &.is-active {
+        color: $white;
+        font-weight: 700;
+      }
+    }
+    @media screen and (max-width: 720px) {
+      display: none;
+    }
+    &__mobile {
+      display: block;
+      position: absolute;
+      top: 75px;
+      bottom: 0;
+      left: 0;
+      width: 105px;
+      z-index: 2;
+    }
+  }
+  &-menu {
+    background-color: $gray-lighter;
+    width: 25%;
+    padding: $base-spacing-unit;
+    &__title {
+      margin: 0 0 $half-spacing-unit 0;
+      @include rem(20);
+      font-weight: 700;
+      color: $black;
+    }
+    @media screen and (max-width: 950px) {
+      display: none;
+    }
+    &__mobile {
+      display: block;
+      position: absolute;
+      top: 75px;
+      bottom: 0;
+      right: 0;
+      width: 255px;
+      z-index: 2;
+    }
+    &__cross {
+      display: none;
+      @media screen and (max-width: 950px) {
+        float: right;
+        @include rem(24);
+        display: block;
+        cursor: pointer;
+      }
+    }
+  }
+}

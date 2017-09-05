@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Account /> should render the header component 1`] = `
+<header
+  className="header"
+>
+  <h1
+    className="header__title"
+  >
+    <span
+      className="icon icon--logo"
+    />
+     InterNations
+     
+    <span
+      className="header__title--pink"
+    >
+      UMS
+    </span>
+  </h1>
+  <span
+    className="icon icon--menu header__btn"
+    onClick={[Function]}
+  />
+</header>
+`;

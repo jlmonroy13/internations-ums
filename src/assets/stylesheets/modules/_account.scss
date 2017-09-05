@@ -1,0 +1,78 @@
+.account {
+  @include gradient-directional($watermelon 0%, $purple 100%, 135deg);
+  min-height: 100vh;
+  padding-top: $base-spacing-unit*3;
+  &__label {
+    display: inline-block;
+    max-width: 100%;
+    margin-bottom: 2px;
+    font-weight: bold;
+    color: $label-color;
+    &--with-icon {
+      position: absolute;
+      left: 32px;
+      top: 50%;
+      color: rgba($white, 0.7);
+      @include transform(translateY(-50%));
+      @include rem(20);
+      margin: 0;
+    }
+  }
+  &__form-group {
+    background-color: rgba($white, 0.05);
+    border-bottom: 2px solid rgba($white, 0.2);
+    padding: $half-spacing-unit $base-spacing-unit*3;
+    position: relative;
+    &:first-child {
+      border-top: 2px solid rgba($white, 0.2);
+    }
+  }
+  &__form-control {
+    @include placeholder();
+    display: block;
+    width: 100%;
+    height: $input-height-base;
+    padding: $padding-base-vertical 0;
+    font-size: 18px;
+    line-height: $line-height-base;
+    color: $input-color;
+    font-weight: $input-font-weight;
+    font-style: $input-font-style;
+    background-color: $input-bg;
+    background-image: none;
+    border-width: $input-border-width;
+    border-style: solid;
+    border-color: $input-border;
+    border-radius: $input-border-radius;
+    &:focus {
+      outline: none;
+    }
+  }
+  &-box {
+    @include gradient-directional(#35394A 0%, #1F222E 100%, 45deg);
+    padding: $base-spacing-unit*2 0;
+    margin-bottom: $base-spacing-unit;
+    &__title {
+      @include rem(30);
+      color: $white;
+      margin-bottom: $base-spacing-unit*2;
+      margin-left: $base-spacing-unit*3;
+    }
+    &__error-message {
+      color: $pink;
+      margin: $half-spacing-unit 0;
+      position: absolute;
+      top: 100%;
+      padding: 0 $base-spacing-unit*3;
+    }
+  }
+  &__message {
+    color: #35394a;
+    text-align: center;
+    font-weight: 500;
+    a {
+      color: #35394a;
+      text-decoration: underline;
+    }
+  }
+}
